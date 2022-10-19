@@ -1,0 +1,167 @@
+body{
+    width: 100%;
+    position: relative;
+    position: fixed;
+    background-color:rgba(0, 46, 40, 1);
+}
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+
+
+/* ****** HEADER ****** */
+.home-a{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    align-content: center;
+}
+.profile{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    align-content: center;
+    margin-top: 225px;
+}
+.categories{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    align-content: center;
+    margin-top: 75px;
+}
+.cart{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    align-content: center;
+    margin-top: 150px;
+}
+.cart-img{
+    width: 55px;
+    margin-right: 25px;
+    margin-left: 70px;
+}
+.cat-img{
+    width: 55px;
+    margin-right: 25px;
+    margin-left: 25px;
+
+}
+.prof-img{
+    margin-left: 42px;
+    margin-right: 25px;
+    width: 55px;
+}
+.home-img{
+    margin-left: 55px;
+    margin-right: 25px;
+    width: 55px;
+}
+.sidebar a{
+    position: absolute; 
+    background-color: #00807b;
+    top: 220px;
+    left: -15%; 
+    transition: all 0.7s; 
+    width: 310px; 
+    padding: 5px;
+    color: #fff;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.25);
+    font-size: 35px; 
+    border-radius: 0 5px 5px 0
+
+}
+.sidebar a:hover{
+    left: 0;
+    background-color: #00fff8;
+    border-radius: 0 30px 30px 0;
+    box-shadow: 0px 25px 50px rgba(72, 130, 123, 0.25);
+}
+
+/* ****** SECTION ****** */
+
+.satauri{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    width: 450px;
+    height: 3px;
+    background-color: #00807b;
+    box-shadow: 0px 25px 50px rgba(72, 130, 123, 0.25);
+    margin-top: 29px;
+    border-radius: 10px;
+}
+.name{
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-weight: 700;
+    color: #00807b;
+    font-size: 100px;
+    margin: 20px 20px 0px 20px;
+    transition: all .7s;
+}
+.name:hover{
+    color: #00fff8;
+    text-shadow: 0px 25px 50px rgba(72, 130, 123, 0.7);
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.center-div{
+    width: 900px;
+    height: 450px;
+    background-image: url(../img/206293_web.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 25px 50px rgba(72, 130, 123, 0.25);
+    border: 2px solid #00807b;
+    border-radius: 30px;
+}
+.center-p{
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 15px;
+    text-shadow: 0px 25px 50px rgba(72, 130, 123, 1);
+    color: #fff;
+}
+
+
+
+/* ******  FOOTER ****** */
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    height: 37px;
+    border-radius: 20px;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.9);
+    background-color: #00807b;
+    transition: all .3s;
+}
+.foot:hover{
+    background-color: #00fff8;
+    height: 40px;
+    border-radius: 12px;
+    padding: 7px;
+    box-shadow:  5px 25px 50px rgba(72, 130, 123, 1.7);
+}
+.fb, .inst, .mail, .github, .linkdin{
+    width: 30px;
+    height: 30px;
+}
